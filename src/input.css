@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer components {
+    .div-shadow {
+        box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .div-shadow1 {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .bg-content {
+        background-color: wh;
+    }
+
+    .h1-styles {
+        @apply text-center pt-20 font-bold text-3xl
+    }
+
+}
